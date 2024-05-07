@@ -51,29 +51,20 @@
 				<td id="order9" onclick="cellPress(this.id)"></td>
 			</tr>
 			<tr>
-				<td id="event10" onclick="cellPress(this.id)"></td>
-				<td id="order10" onclick="cellPress(this.id)"></td>
+				<td id="event10" onclick="cellPress(this.id)" style="border-width: 0.082vh .041vh 0.082vh 0;"></td>
+				<td id="order10" onclick="cellPress(this.id)" style="border-width: 0.082vh 0 .041vh .082vh 0;"></td>
 			</tr>
-			<tr style="background: lightgrey">
-				<td>
+			<tr style="background: lightgrey" >
+				<td style="border:none">
+				  <button class="back" style="background-color: steelblue" onclick = "window.location.href='./index.html'">To Menu</button>
 				      <button style="background: #ff4d52" onclick="start()">Reset</button>
+				      
 					
 				</td>
-				<td>
+				<td class="block" style="border:none">
 					<button style="background: #4dff64" onclick="check()">Check</button>
-				</td>
-			</tr>
-			<tr>
-				<td style="background: lightgrey">
-					<p>
-						Press a term on the left and then tap the spot that you want it to
-						go on the right. Press agian to delete.
-					</p>
-					<button class="back" style="background-color: steelblue" onclick = "window.location.href='./index.html'">To Menu</button>
-				</td>
-				<td style="background: lightgrey">
-				      <p>Reveal answers on check</p>
 				      <input type="checkbox" id="checkBox"/>
+				      <label for="checkBox">Reveal answers on check</label>
 				</td>
 			</tr>
 		</table>

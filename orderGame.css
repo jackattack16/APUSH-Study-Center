@@ -1,18 +1,19 @@
 .game {
-     border: 2px solid black; 
+  /*   border: 2px solid black; */
       height: 100vh;
       border-spacing: 0px; 
 }
 
 
 body {
-      overflow: hidden;
+     /* overflow: hidden;*/
       margin: 0;
 }
 
 th {
-      height: 10%;
-      border: 2px solid black;
+      height: 7.5vh;
+      border: 0.041vh solid black;
+      width: 50vw;
       font-size: 250%;
       font-family: Monospace;
       text-align: center;
@@ -20,17 +21,15 @@ th {
 }
 
 td {
-      border: 2px solid black;
-      width: 50%;
-      height: 9%;
-      font-size: 120%;
+      border: 0.041vh solid black;
+      max-width: 50vw;
+      height: 7.5vh;
+      font-size: 110%;
       font-family: Monospace;
       text-align: center;
 }
 
 button {
-      height: 150%;
-      width: 50%;
       margin: 1%;
       font-size: 150%;
       font-family: Monospace;
