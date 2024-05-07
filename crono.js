@@ -253,6 +253,7 @@ function cellPress(id) {
             currentCellSelectContent = "";
             
       }
+      hasUsed();
 }
 
 function start() {
@@ -330,6 +331,20 @@ if(score == 1) {
 
 }
 
-
-
-
+function hasUsed() {
+  let yourOrder = [];
+  for(let l = 1; l < 11; l++) {
+    document.getElementById("event" + l).style.fontWeight = "normal";
+  }
+  for (let y = 0; y < 10; y++) {
+            var h = y + 1;
+            let text = document.getElementById("order" + h).innerText;
+            if (numToEvent.indexOf(text) != -1) {
+                  let id = list.indexOf(numToEvent.indexOf(text)+1)+1;
+                  document.getElementById("event" + id).style.fontWeight = "bold";
+            } else {
+                  yourOrder.push(text);
+            }
+         
+      }
+}
