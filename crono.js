@@ -531,7 +531,8 @@ function start() {
             var h = y + 1;
             document.getElementById("event" + h).innerText = numToEvent[list[y]-1];
       }
-      
+      hasUsed();
+      document.getElementById("displayDateArea").innerHTML = "Click for hint!";
 }
 
 function makeList() {
