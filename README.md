@@ -1,3 +1,3 @@
-A little website to help organize study resources 
+a simple website to study cronological terms 
 
-https://jackattack16.github.io/APUSH-Study-Center/ 
+https://jackattack16.github.io/Chronological-Order/
