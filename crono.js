@@ -548,7 +548,7 @@ function makeList() {
             list.push(place+1);
             numList.push(Number(place+1));
             console.log(numToEvent[Number(place+1)] + " + " + date[Number(place+1)]);
-            dateList.push(date[Number(place+1)]);
+            dateList.push(date[Number(place)]);
             place = Math.floor(Math.random() * numToEvent.length);
       }
       numList.sort((a, b) => a - b);
