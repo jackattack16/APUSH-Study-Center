@@ -574,9 +574,11 @@ function start() {
       list = [];
       numList = [];
       makeList();
+      currentCellSelectContent = "";
       for (let y = 0; y < 10; y++) {
             var h = y + 1;
             document.getElementById("event" + h).innerText = numToEvent[list[y]-1];
+            document.getElementById("event" + h).style.background = "white";
       }
       hasUsed();
       document.getElementById("displayDateArea").innerHTML = "Click for hint!";
