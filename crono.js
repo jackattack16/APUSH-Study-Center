@@ -575,6 +575,7 @@ function start() {
       numList = [];
       makeList();
       currentCellSelectContent = "";
+      hintsUsed = 0;
       for (let y = 0; y < 10; y++) {
             var h = y + 1;
             document.getElementById("event" + h).innerText = numToEvent[list[y]-1];
